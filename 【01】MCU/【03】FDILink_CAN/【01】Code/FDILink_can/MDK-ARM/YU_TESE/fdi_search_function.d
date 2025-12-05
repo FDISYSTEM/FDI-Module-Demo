@@ -1,0 +1,6 @@
+yu_tese\fdi_search_function.o: ..\..\APP\FDI_Search_Function.c
+yu_tese\fdi_search_function.o: ..\..\APP\main.h
+yu_tese\fdi_search_function.o: ..\..\APP\fdilink_decode.h
+yu_tese\fdi_search_function.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+yu_tese\fdi_search_function.o: ..\..\APP\FDILink.h
+yu_tese\fdi_search_function.o: ..\..\APP\FDI_send.h

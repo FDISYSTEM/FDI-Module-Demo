@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="FDILink" type="launch_imu_node" name="launch_imu_node" output="screen">
+       <!--设置imu连接的串口号，下面为默认值-->
+       <!-- <param name="imu_serial_port" value="/dev/ttyUSB0"/>-->
+       <!--设置imu的话题名，下面为默认值-->
+       <param name="FDI_IMU_TOPIC" value="/fdi_imu"/>
+       <!--设置磁力计的话题名，下面为默认值-->
+       <param name="FDI_MAG_TOPIC" value="/fdi_mag"/>
+    </node>
+</launch>
